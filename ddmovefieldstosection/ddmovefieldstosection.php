@@ -1,7 +1,7 @@
 <?php
 /** 
  * mm_ddMoveFieldsToSection
- * @version 1.0.2 (2013-12-10)
+ * @version 1.1 (2016-11-16)
  * 
  * @desc Widget allows document fields & TVs to be moved in an another section. However you can’t move the following fields: keywords, metatags, which_editor, show_in_menu, menuindex.
  * 
@@ -14,9 +14,9 @@
  * @param $params['roles'] {string_commaSeparated} — The roles that the widget is applied to (when this parameter is empty then widget is applied to the all roles). Default: ''.
  * @param $params['templates'] {string_commaSeparated} — Id of the templates to which this widget is applied (when this parameter is empty then widget is applied to the all templates). Default: ''.
  * 
- * @link http://code.divandesign.biz/modx/mm_movefieldstosection/1.0.2
+ * @link http://code.divandesign.biz/modx/mm_movefieldstosection/1.1
  * 
- * @copyright 2013 DivanDesign {@link http://www.DivanDesign.biz }
+ * @copyright 2013–2016 DivanDesign {@link http://www.DivanDesign.biz }
  */
 
 function mm_ddMoveFieldsToSection($params){
